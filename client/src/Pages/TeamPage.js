@@ -10,7 +10,7 @@ class TeamPage extends Component {
   logout = () => {
     /*alert("Logged Out Successfully");*/
     localStorage.clear();
-    window.location.href = '/home'
+    window.location.href = '/#/home'
   }
 
 
