@@ -35,9 +35,9 @@ class TeamPage extends Component {
 
             <Switch>
               {/* <Route path='/Auction'> <Auction/> </Route> */}
-              <Route path='/Leaderboard'> <Leaderboard/> </Route>
-              <Route path='/TeamProfile'> <TeamProfile/> </Route>
-              <Route path='/Players'> <Players/> </Route>
+              <Route exact path='/Leaderboard'> <Leaderboard/> </Route>
+              <Route exact path='/TeamProfile'> <TeamProfile/> </Route>
+              <Route exact path='/Players'> <Players/> </Route>
               <Route path="/"> {null} </Route>
 
             </Switch>

@@ -13,7 +13,7 @@ class TeamPage extends Component {
     window.location.href = '/home'
   }
 
-
+ exact
 
   render() {
     return (
@@ -35,9 +35,9 @@ class TeamPage extends Component {
 
             <Switch>
               {/* <Route path='/Auction'> <Auction/> </Route> */}
-              <Route path='/Leaderboard'> <Leaderboard/> </Route>
-              <Route path='/PlayerProfile'> <PlayerProfile/> </Route>
-              <Route path='/Players'> <Players/> </Route>
+              <Route exact path='/Leaderboard'> <Leaderboard/> </Route>
+              <Route exact path='/PlayerProfile'> <PlayerProfile/> </Route>
+              <Route exact path='/Players'> <Players/> </Route>
               <Route path="/"> {null} </Route>
 
             </Switch>

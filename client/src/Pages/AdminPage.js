@@ -34,9 +34,9 @@ class AdminPage extends Component {
             <Navigation />
 
             <Switch>
-              <Route path='/Auction'> <ChoosePlayer/> </Route>
-              <Route path='/Leaderboard'> <Leaderboard/> </Route>
-              <Route path='/Players'> <Players /> </Route>
+              <Route exact path='/Auction'> <ChoosePlayer/> </Route>
+              <Route exact path='/Leaderboard'> <Leaderboard/> </Route>
+              <Route exact path='/Players'> <Players /> </Route>
               <Route path="/"> {null} </Route>
 
             </Switch>
