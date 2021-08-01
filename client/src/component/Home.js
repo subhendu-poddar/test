@@ -9,9 +9,9 @@ class Home extends Component {
         var AdminLoggedin = JSON.parse(localStorage.getItem('admin'));
         return (
             <div>
-                { AdminLoggedin && <Redirect to='/AdminPage'/> }
+                {AdminLoggedin && <Redirect to='/#/AdminPage'/> }
                 { teamLoggedin && <Dashboard />}
-                { !teamLoggedin && <Redirect to='/login' /> }
+                { !teamLoggedin && <Redirect to='/#/login' /> }
             </div>
         );
     }

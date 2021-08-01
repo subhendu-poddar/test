@@ -39,7 +39,7 @@ class PlayersRegistration extends Component {
                     localStorage.setItem('player', response.config.data)
                     console.log("Data has been successfully sent to the server !!")
                     this.resetState()
-                    window.location.href = '/PlayerPage'
+                    window.location.href = '/#/PlayerPage'
                 }
 
             })

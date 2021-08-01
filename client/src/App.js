@@ -11,6 +11,7 @@ import Admin from './component/Admin'
 import AdminPage from './Pages/AdminPage'
 import TeamPage from './Pages/TeamPage'
 import PlayerPage from './Pages/PlayerPage'
+import ChoosePlayer from './Pages/AuctionPage/ChoosePlayer';
 import PlayerLogin from './component/PlayerLogin'
 import Leaderboard from './Dashboard/Leaderboard';
 import PlayerProfile from './Dashboard/PlayerProfile';
@@ -43,6 +44,7 @@ function App() {
           <Route exact path='/PlayerProfile'> <PlayerProfile /> </Route>
           <Route exact path='/Players'> <Players /> </Route>
           <Route exact path='/TeamProfile'> <TeamProfile /> </Route>
+          <Route exact path='/Auction'> <ChoosePlayer /> </Route>
           
         </Switch>
 

@@ -28,7 +28,7 @@ class Admin extends Component {
           console.log(response.config.data)
           console.log("signin successful !!")
           this.resetState()
-          window.location.href = '/AdminPage'
+          window.location.href = '/#/AdminPage'
         }
 
       })

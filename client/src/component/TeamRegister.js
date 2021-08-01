@@ -42,7 +42,7 @@ class Register extends Component {
                     localStorage.setItem('team', response.config.data)
                     console.log("Data has been successfully sent to the server !!")
                     this.resetState()
-                    window.location.href = '/TeamPage'
+                    window.location.href = '/#/TeamPage'
                 }
                 
             })

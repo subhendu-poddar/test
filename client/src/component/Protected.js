@@ -9,9 +9,9 @@ class Protected extends Component {
         var PlayerLoggedin = JSON.parse(localStorage.getItem('player'));
         return (
             <div>
-                {AdminLoggedin && <Redirect to="/AdminPage" />}
-                {TeamLoggedin && <Redirect to="/TeamPage" />}
-                {PlayerLoggedin && <Redirect to="/PlayerPage" />}
+                {AdminLoggedin && <Redirect to="/#/AdminPage" />}
+                {TeamLoggedin && <Redirect to="/#/TeamPage" />}
+                {PlayerLoggedin && <Redirect to="/#/PlayerPage" />}
             </div>
         );
     }

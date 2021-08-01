@@ -34,7 +34,7 @@ class Login extends Component {
                     console.log(response.config.data)
                     console.log("signin successful !!")
                     this.resetState()
-                    window.location.href = '/PlayerPage'
+                    window.location.href = '/#/PlayerPage'
                 }
 
             })
